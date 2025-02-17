@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHq+6o8X5a2pMZkp+aefbL5yyJ/wcJpFUG8g+8ZKekM2ObP3cA9z7n75JKF5I/+gq1q1HBGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="script.js"></script>
+  <title>portfolio</title>
+</head>
+
+  <body class="main-content">
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logos-summa-college-groenn-removebg-preview.png" alt="Logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">vaardigheden</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">school projecten</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#">Contacteer mij</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__title" >
+        <div class="header__text">
+              <h1>Hoi, mijn naam is Bart Op den Buijsch</h1>
+              <h4>Student software development op het summa college in Eindhoven</h4>
+            </div>
+            <img src="img/portfolio_foto_stage-removebg-preview.png"
+                class="header__img"
+                alt="Minimalist items"
+                style="width: 500px; height: 750px; border-radius: 10px; border: 2px solid black;" />
+          </div>
+      
+
+  </header>
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">over mij</h2>
+      <h3 class="section__header">Mijn vaardigheden</h3>
+    </div>
+    <div class="operations">
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+            <span>Ervaring</span>
+          </button>
+        </div>
+        <div class="operations__content operations__content--1 operations__content--active skills">
+          <div class="skill">
+            <div class="skill__title">HTML</div>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 70%;">70%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__title">CSS</div>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 65%;">65%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__title">Dart</div>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 60%;">60%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__title">Laravel</div>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 65%;">65%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__title">API's</div>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 60%;">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">projecten</h2>
+      <h3 class="section__header">Mijn school projecten</h3>
+    </div>
+    <div class="features">
+      <video controls class="features__video">
+        <source src="img/summamove_demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="features__feature">
+        <div class="features__icon">
+          <img src="img/weightlifter.png" alt="Weightlifter Icon" class="project-icon" />
+        </div>
+        <h5 class="features__header">Summamove</h5>
+        <p>
+          ✅ CRUD-functionaliteit in het lararvel control panel<br>
+          ✅ Beveiliging met Bearer Token<br>
+          ✅ Inloggen en oefeningen bekijken in de app<br>
+          ✅ Uitleg van oefeningen aanpassen (Engels/Nederlands)<br>
+          ✅ Real-time synchronisatie via een eigen API
+        </p>
+      </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="features">
+      <div class="features__feature">
+        <div class="features__icon">
+          <img src="img/pizza.png" alt="Pizza Icon" class="project-icon" />
+        </div>
+        <h5 class="features__header">stonkspizza</h5>
+        <p>
+          ✅ Pizza samenstellen met eigen toppings<br>
+          ✅ Winkelmandje om bestellingen te beheren (update/verwijderen)<br>
+          ✅ Bestelpagina met adres en telefoonnummer<br>
+          ✅ Bestellingen worden na plaatsing opgeslagen<br>
+          ✅ Status van bestellingen kan worden aangepast
+        </p>
+      </div>
+      <video controls class="features__video--pizza">
+        <source src="img/stonkspizza_demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__branding">
+        <img src="img/logos-summa-college-groenn-removebg-preview.png" alt="Your Portfolio Logo" class="footer__logo">
+        <p class="footer__tagline">
+          <div style="margin-right: 200px; border-top: 1px solid white; width: 100%;"></div>
+        </p>
+      </div>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="#section--1" class="footer__nav-link">vaardigheden</a></li>
+          <li class="footer__nav-item"><a href="#section--2" class="footer__nav-link">school projecten</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/username" target="_blank" rel="noopener" class="footer__social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/username" target="_blank" rel="noopener" class="footer__social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/username" target="_blank" rel="noopener" class="footer__social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025 Bart Op den Buijsch.</p>
+    </div>
+  </footer>
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Ik reageer zo snel mogelijk <br>
+    </h2>
+    <div class="modal__contact">
+      <p><strong>Mail:</strong> 
+        <a href="mailto:jouwmail@example.com">ps242953@summacollege.nl</a>
+      </p>
+      <p><strong>Telefoonnummer:</strong> 
+        <a href="tel:+31612345678">+06 20 41 87 23</a>
+      </p>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+</html>
